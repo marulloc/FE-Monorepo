@@ -1,10 +1,10 @@
 import React from 'react';
 
-type TProps = {
+export type TTestDivProps = {
     propA: string;
 };
 
-const TestDiv: React.FC<TProps> = ({ propA }) => {
+const TestDiv: React.FC<TTestDivProps> = ({ propA }) => {
     return <div>{propA}</div>;
 };
 
