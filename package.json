@@ -1,14 +1,17 @@
 {
-  "name": "@marulloc/fe-monorepo",
-  "packageManager": "yarn@3.4.1",
-  "private": true,
-  "workspaces": [
-    "apps/*",
-    "packages/*"
-  ],
-  "devDependencies": {
-    "eslint": "^8.33.0",
-    "prettier": "^2.8.3",
-    "typescript": "^4.9.5"
-  }
+    "name": "@marulloc/fe-monorepo",
+    "packageManager": "yarn@3.4.1",
+    "private": true,
+    "workspaces": [
+        "apps/*",
+        "packages/*"
+    ],
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "latest",
+        "@typescript-eslint/parser": "latest",
+        "eslint": "^8.33.0",
+        "eslint-plugin-react": "latest",
+        "prettier": "^2.8.3",
+        "typescript": "^4.9.5"
+    }
 }
